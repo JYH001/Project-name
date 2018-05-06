@@ -16,7 +16,7 @@ public class Project1Class {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
 		driver.get("https://www.baidu.com");
-		System.out.println("当前页面提示是："+driver.getTitle());
+		System.out.println("褰撳墠椤甸潰鎻愮ず鏄細"+driver.getTitle());
 		//driver.quit();
 		
 	}
